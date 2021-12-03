@@ -7,7 +7,7 @@ public static void main(String args[]) throws IOException
  try
 {
 String str;
-ServerSocket server=new ServerSocket(6555);
+ServerSocket server=new ServerSocket(6555); 
 Socket s=server.accept();
 BufferedReader br=new BufferedReader(new InputStreamReader(s.getInputStream()));
 str=br.readLine();
